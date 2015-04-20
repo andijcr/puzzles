@@ -71,10 +71,10 @@ public class CherylBirthday {
 	
 	public static void main(String[] args) {
 		List<MonthDay> possibleBirthdays = Arrays.asList(
-			MonthDay(MAY, 15), MonthDay(MAY, 16), MonthDay(MAY, 19),
-			MonthDay(JUNE, 17), MonthDay(JUNE, 18),
-			MonthDay(JULY, 14), MonthDay(JULY, 16),
-			MonthDay(AUGUST, 14), MonthDay(AUGUST, 15), MonthDay(AUGUST, 17)
+			MonthDay.of(MAY, 15), MonthDay.of(MAY, 16), MonthDay.of(MAY, 19),
+			MonthDay.of(JUNE, 17), MonthDay.of(JUNE, 18),
+			MonthDay.of(JULY, 14), MonthDay.of(JULY, 16),
+			MonthDay.of(AUGUST, 14), MonthDay.of(AUGUST, 15), MonthDay.of(AUGUST, 17)
 		);
 		
 		System.out.println("Starting candidate dates:");
